@@ -1,0 +1,31 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server",
+    "test:flow": "flow",
+    "test:unit": "mocha --require jsdom-global/register --require ignore-styles --compilers jsx:babel-register --recursive test/unit",
+    "test:lint": "eslint {src,test,webpack.config.babel.js} --fix",
+    "test:e2e": "babel-node test/boot-e2e.js",
+    "test": "npm run test:flow && npm run test:lint && npm run test:unit && npm run test:e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airtoxin/{{name}}"
+  },
+  "keywords": [],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "airtoxin <airtoxin@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airtoxin/{{name}}/issues"
+  },
+  "homepage": "https://github.com/airtoxin/{{name}}#readme"
+}
