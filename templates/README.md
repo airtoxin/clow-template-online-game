@@ -14,7 +14,7 @@ npm run dev
 
 ### Environment variables
 
-used for firebase
+for [firebase](https://firebase.google.com/)
 
 + apiKey
 + authDomain

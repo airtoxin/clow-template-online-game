@@ -1,5 +1,5 @@
 # clow-template-online-game
-This is a clow template project of online game with React.js and baobab-react.
+This is a clow template project of online game powered by firebase with React.js and baobab-react.
 
 ```shell
 $ npm i -g clow
