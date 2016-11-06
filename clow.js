@@ -16,7 +16,10 @@ module.exports = [
     type: "npm-install",
     dependencies: [
       "react",
-      "react-dom"
+      "react-dom",
+      "baobab",
+      "baobab-react",
+      "serialize-error"
     ],
     devDependencies: [
       "babel-cli",
