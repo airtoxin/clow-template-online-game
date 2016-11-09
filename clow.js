@@ -43,6 +43,7 @@ module.exports = [
       // "eslint-plugin-react",
       "flow",
       "flow-bin",
+      "firebase",
       "mocha",
       "recursive-readdir",
       "enzyme",
