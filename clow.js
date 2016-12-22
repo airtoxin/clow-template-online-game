@@ -63,7 +63,7 @@ module.exports = [
   {
     type: "shell",
     commands: [
-      "npm info eslint-config-airbnb peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --DE eslint-config-airbnb"
+      "npm info 'eslint-config-airbnb@latest' peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --DE 'eslint-config-airbnb@latest'"
     ]
   },
   {
